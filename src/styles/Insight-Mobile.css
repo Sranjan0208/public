@@ -1,0 +1,44 @@
+.card-mobile {
+  border-radius: 1.25rem;
+  border: 2px solid rgba(127, 162, 255, 0.62);
+  background: linear-gradient(
+      180deg,
+      rgba(127, 162, 255, 0) 0%,
+      rgba(42, 87, 249, 0.12) 100%
+    ),
+    #fff;
+  width: 361px;
+  height: 205px;
+}
+
+.card-icon-div-mobile {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: linear-gradient(
+      180deg,
+      rgba(127, 162, 255, 0.09) 0%,
+      rgba(42, 87, 249, 0.3) 100%
+    ),
+    #fff;
+}
+
+.svg-line-mobile {
+  width: 4px;
+  height: 531px;
+  opacity: 0.52;
+  background: rgba(127, 162, 255, 0.62);
+}
+
+.gradient-div10-mobile {
+  width: 300px;
+  height: 200px;
+  border-radius: 24.742px;
+  background: radial-gradient(
+    1351.01% 78.76% at 23.96% 46.38%,
+    rgba(148, 120, 255, 0.24) 0%,
+    rgba(71, 23, 255, 0.24) 100%
+  );
+  filter: blur(170.7168426513672px);
+}

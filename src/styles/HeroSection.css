@@ -1,0 +1,40 @@
+#report-button {
+  border-radius: 0.625rem;
+  background: radial-gradient(
+      107.08% 85.59% at 86.3% 87.5%,
+      rgba(0, 0, 0, 0.23) 0%,
+      rgba(0, 0, 0, 0) 86.18%
+    ),
+    radial-gradient(
+      83.94% 83.94% at 26.39% 20.83%,
+      rgba(255, 255, 255, 0.41) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #282728;
+  box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset,
+    2px 2px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+#paragraph {
+  background: linear-gradient(89deg, #0045ff 54.8%, #7fa2ff 99.2%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ensure it covers the entire viewport height */
+  width: 56.313rem;
+  height: 35.063;
+  flex-shrink: 0;
+  background-size: cover; /* Ensures the background covers the whole area */
+  z-index: -1;
+  border-radius: 20px;
+  background: url("../assets/background.jpeg") -167.727px 223.444px / 98.984% 53.017%
+    no-repeat;
+}

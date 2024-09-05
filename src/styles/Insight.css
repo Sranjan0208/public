@@ -1,0 +1,50 @@
+#paragraph {
+  background: linear-gradient(89deg, #0045ff 54.8%, #7fa2ff 99.2%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.svg-line {
+  stroke-width: 4px;
+  stroke: rgba(127, 162, 255, 0.62);
+  opacity: 0.52;
+}
+
+.card {
+  border-radius: 1.25rem;
+  border: 2px solid rgba(127, 162, 255, 0.62);
+  background: linear-gradient(
+      180deg,
+      rgba(127, 162, 255, 0) 0%,
+      rgba(42, 87, 249, 0.12) 100%
+    ),
+    #fff;
+  width: 40.5rem;
+  height: 10.438rem;
+}
+
+.card-icon-div {
+  width: 7.438rem;
+  height: 7.438rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: linear-gradient(
+      180deg,
+      rgba(127, 162, 255, 0.09) 0%,
+      rgba(42, 87, 249, 0.3) 100%
+    ),
+    #fff;
+}
+
+.gradient-div10 {
+  width: 734px;
+  height: 436.276px;
+  border-radius: 24.742px;
+  background: radial-gradient(
+    1351.01% 78.76% at 23.96% 46.38%,
+    rgba(148, 120, 255, 0.24) 0%,
+    rgba(71, 23, 255, 0.24) 100%
+  );
+  filter: blur(170.7168426513672px);
+}

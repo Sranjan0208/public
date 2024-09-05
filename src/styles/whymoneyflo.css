@@ -1,0 +1,83 @@
+/* General Container Styles */
+.gradient-div5,
+.gradient-div6 {
+  border-radius: 20px;
+  border: 2px solid rgba(127, 162, 255, 0.62);
+}
+
+.gradient-div5 {
+  width: 100%;
+  max-width: 44.875rem; /* Limit width on larger screens */
+  height: auto; /* Allow height to adjust based on content */
+  background: linear-gradient(
+      180deg,
+      rgba(127, 162, 255, 0) 0%,
+      rgba(42, 87, 249, 0.12) 100%
+    ),
+    #fff;
+}
+
+.gradient-div6 {
+  width: 100%;
+  max-width: 21.875rem; /* Limit width on larger screens */
+  height: 28.11rem; /* Allow height to adjust based on content */
+  background: radial-gradient(
+      47.85% 86.18% at 10.16% 35.31%,
+      #7fa2ff 0%,
+      #2a57f9 100%
+    ),
+    #fff;
+}
+
+/* Mobile and Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .gradient-div5,
+  .gradient-div6 {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .gradient-div5 {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .gradient-div6 {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .paragraph {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .text-3xl {
+    font-size: 1.875rem; /* Adjust text size for smaller screens */
+  }
+
+  .text-4xl {
+    font-size: 2.25rem; /* Adjust text size for smaller screens */
+  }
+
+  .text-lg {
+    font-size: 1.125rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Very Small Screens */
+@media (max-width: 480px) {
+  .paragraph {
+    font-size: 1rem; /* Further adjust font size for very small screens */
+  }
+
+  .text-3xl {
+    font-size: 1.5rem; /* Further adjust text size for very small screens */
+  }
+
+  .text-4xl {
+    font-size: 1.875rem; /* Further adjust text size for very small screens */
+  }
+
+  .gradient-div5,
+  .gradient-div6 {
+    padding: 1rem; /* Further adjust padding for very small screens */
+  }
+}

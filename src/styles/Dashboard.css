@@ -1,0 +1,8 @@
+#gradient-div {
+  border-radius: 1.75rem;
+  background: linear-gradient(
+    180deg,
+    #5281ff 82%,
+    rgba(49, 77, 153, 0) 103.66%
+  );
+}
